@@ -80,7 +80,7 @@
     font-size: 1.1rem;
     border-radius: 5px;
 }
-.form-control +span {
+.form-control +label {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -90,7 +90,7 @@
     transition: all 200ms ease-in-out;
     opacity: 0.7;
 }
-.form-control:focus+span,.form-control:valid+span{
+.form-control:focus+label,.form-control:valid+label{
     transform: translateY(-23px);
     font-size: .9rem;
     opacity: 1;
