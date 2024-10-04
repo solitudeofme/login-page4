@@ -15,6 +15,9 @@
 :root{
     --themecolor: #37dabf;
 }
+a:hover,button:hover{
+    opacity: 0.8;
+}
 #main{
     background-color: black;
     overflow: hidden;
@@ -116,12 +119,12 @@
     border-radius: 5px;
 }
 
-#forget-password:link,#forget-password a:visited {
+#forget-password:link,#forget-password:visited {
     text-decoration: none;
     color: #b7b7b7;
     font-size: 1.1rem;
 }
-#signup:link,#signup a:visited {
+#signup:link,#signup:visited {
     text-decoration: none;
     color:var(--themecolor); ;
     font-size: 1.1rem;
