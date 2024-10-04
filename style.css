@@ -15,7 +15,7 @@
 :root{
     --themecolor: #37dabf;
 }
-body{
+#main{
     background-color: black;
     overflow: hidden;
 }
