@@ -17,6 +17,7 @@
 }
 a:hover,button:hover{
     opacity: 0.8;
+    cursor: pointer;
 }
 #main{
     background-color: black;
